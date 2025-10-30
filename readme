@@ -1,3 +1,5 @@
+# Esto solamente se hace la PRIMERA VEZ que se enlaza el proyecto con el repositorio, ya para insertar actualizaciones en el repositorio se hace de otra forma
+
 # 1. Navegar a la carpeta del proyecto
 cd ruta/de/tu/proyecto
 
@@ -22,3 +24,9 @@ git push -u origin main
 
 # Para desenlazar un proyecto con gitHub
 git remote remove origin
+
+# PARA ACTUALIZACIONES
+
+git add .
+git commit -m "mensaje"
+git push
