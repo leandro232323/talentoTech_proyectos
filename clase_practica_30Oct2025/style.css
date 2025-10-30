@@ -33,3 +33,19 @@ body{
     width: 400px;
     border: 1px solid white;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+a {
+    color: white; /* Azul moderno */
+    text-decoration: none; /* Quita el subrayado */
+}
