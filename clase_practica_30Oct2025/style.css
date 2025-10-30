@@ -4,7 +4,6 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-
 .principal{
     color: white;
 }
@@ -24,7 +23,6 @@ body{
 .contenido{
     border: 1px solid white;
 }
-
 
 .contenedorSecundario{
     display: flex;
