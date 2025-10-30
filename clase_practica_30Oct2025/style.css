@@ -1,15 +1,45 @@
-
 body{
-    background-color: #1A3D64;
+    background-color: #0a1a35;  
     font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #1e3a5f;  
+    height: 10px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 60px;
+}
+
+.opciones{
+    height: 40px;
+    width: 160px;
+    border: 1px solid #3b82f6;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1e40af;  
+    transition: all 0.3s ease;
+}
+
+.opciones:hover {
+    background-color: #3b82f6;  
+    transform: translateY(-2px);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
 }
 
 .principal{
-    color: white;
+    color: #e0f2fe;  
 }
 
 .parrafo{
-    color: #08C2FF;
+    color: #60a5fa;  
 }
 
 .contenedor{
@@ -17,11 +47,12 @@ body{
     height: 100px;
     margin: 30px;
     padding: 40px;
-    border: 1px solid white;
+    border: 1px solid #334155;  
+    background-color: #1e293b;  
 }
 
 .contenido{
-    border: 1px solid white;
+    border: 1px solid #475569;  
 }
 
 .contenedorSecundario{
@@ -31,21 +62,48 @@ body{
 
 .contenidoDos{
     width: 400px;
-    border: 1px solid white;
+    border: 1px solid #475569;  
+    background-color: #1e293b;  
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+    grid-template-columns: 500px 500px;
+    gap: 30px;
 }
 
 .grid-item{
-    background-color: lightgreen;
+    background-color: #1e3a5f; 
     padding: 20px;
+    color: #e0f2fe;  
+    border: 1px solid #3b82f6;  
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.grid-item:hover {
+    background-color: darkblue;
+    animation: mover 1s;
+}
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100px); }
+}
+
+.contenedor-grid-grid{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 a {
-    color: white; /* Azul moderno */
-    text-decoration: none; /* Quita el subrayado */
+    color: #93c5fd; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: white;
 }
