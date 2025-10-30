@@ -92,6 +92,22 @@ header{
     100% { transform: translateX(100px); }
 }
 
+
+
+
+
+@keyframes girar {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+.opciones {
+    animation: girar 2s infinite linear;
+}
+
+
+
+
 .contenedor-grid-grid{
     margin-top: 30px;
     display: flex;
