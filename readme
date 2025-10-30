@@ -1,32 +1,25 @@
 # Esto solamente se hace la PRIMERA VEZ que se enlaza el proyecto con el repositorio, ya para insertar actualizaciones en el repositorio se hace de otra forma
 
-# 1. Navegar a la carpeta del proyecto
+# Ejecutar estos comandos en secuencia
+
 cd ruta/de/tu/proyecto
-
-# 2. Inicializar Git (si no está inicializado)
 git init
-
-# 3. Conectar con GitHub (URL de TU repositorio)
 git remote add origin https://github.com/tu-usuario/tu-repositorio.git
-
-# 4. Agregar todos los archivos
 git add .
-
-# 5. Hacer el primer commit
 git commit -m "Initial commit"
-
-# 6. Renombrar rama principal (si es necesario)
 git branch -M main
-
-# 7. Subir a GitHub por primera vez
 git push -u origin main
-
-
-# Para desenlazar un proyecto con gitHub
 git remote remove origin
 
-# PARA ACTUALIZACIONES
+
+# -------------------- PARA ACTUALIZACIONES ------------------------ #
 
 git add .
 git commit -m "mensaje"
 git push
+
+
+# -------------------- IMPORTAR EL PROYECTO EN CUALQUIER PC ------------------------ #
+
+# Clonar el repositorio
+git clone https://github.com/leandro232323/repositorioPrueba.git
