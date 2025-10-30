@@ -23,3 +23,8 @@ git push
 
 # Clonar el repositorio
 git clone https://github.com/leandro232323/repositorioPrueba.git
+
+
+
+# ----------------  ELIMINA TODO ACERCA DE GIT que este enlazado con el proyecto --------------------- #
+Get-ChildItem -Hidden -Filter ".git"
