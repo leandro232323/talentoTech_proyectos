@@ -18,6 +18,17 @@ git add .
 git commit -m "mensaje"
 git push
 
+## LEA ESTO ANTES DE EJECUTAR LOS COMANDOS DE ACTUALIZACION, IMPORTANTE!! 
+
+cuando trate de importar el proyecto en otra pc que no es la misma en donde se vinculo el proyecto con el repositorio de github
+por PRIMERA VEZ, tiene que verificar que tenga instalado el git y despues de esos ejecutamos estos comandos
+
+git config --global user.email "tu-email@gmail.com"
+git config --global user.name "Tu Nombre"
+
+despues de ejecutar estos comandos, ya podemos utilizar los comandos de actualizacion de para ir haciendo cambios en el repositorio
+
+
 
 # -------------------- IMPORTAR EL PROYECTO EN CUALQUIER PC ------------------------ #
 
