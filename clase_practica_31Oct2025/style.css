@@ -30,3 +30,14 @@ td {
 th {
     background-color: #f4f4f4;
 }
+
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="submit"]{
+    background-color: aquamarine;
+}

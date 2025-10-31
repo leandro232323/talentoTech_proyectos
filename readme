@@ -31,7 +31,7 @@ git config --global user.name "Tu Nombre"
 
 despues de ejecutar estos comandos, ya podemos utilizar los comandos de actualizacion de para ir haciendo cambios en el repositorio
 
-# --------------- DESCARGAR LOS ULLTIMOS CAMBIOS QUE SE HAN HECHO EN EL REPOSITORIO -------------------- #
+# --------------- DESCARGAR LOS ULTIMOS CAMBIOS QUE SE HAN HECHO EN EL REPOSITORIO -------------------- #
 git pull
 
 Este comando hace que nuestro proyecto local que estemos trabajando en nuestra pc, se acualize con los ultimos cambios que el equipo de desarrollo a hecho en el repositorio.
