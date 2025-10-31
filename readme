@@ -20,14 +20,21 @@ git push
 
 ## LEA ESTO ANTES DE EJECUTAR LOS COMANDOS DE ACTUALIZACION, IMPORTANTE!! 
 
-cuando trate de importar el proyecto en otra pc que no es la misma en donde se vinculo el proyecto con el repositorio de github
-por PRIMERA VEZ, tiene que verificar que tenga instalado el git y despues de esos ejecutamos estos comandos
+cuando trate de importar el proyecto en otra pc que no es la misma en donde se vinculo el proyecto con el repositorio de github por PRIMERA VEZ, tiene que verificar que tenga instalado el git y despues de eso ejecutamos estos comandos, para que los comandos de actualizacion ahora si funcione, SI NO SE HACE, cuando usted ejecute este comando git commit -m "mensaje", le sale un error
+
+
+## LOS DATOS PUEDEN SER CUALQUIERA, lo importante es que ejecute estos comandos
 
 git config --global user.email "tu-email@gmail.com"
 git config --global user.name "Tu Nombre"
 
+
 despues de ejecutar estos comandos, ya podemos utilizar los comandos de actualizacion de para ir haciendo cambios en el repositorio
 
+# --------------- DESCARGAR LOS ULLTIMOS CAMBIOS QUE SE HAN HECHO EN EL REPOSITORIO -------------------- #
+git pull
+
+Este comando hace que nuestro proyecto local que estemos trabajando en nuestra pc, se acualize con los ultimos cambios que el equipo de desarrollo a hecho en el repositorio.
 
 
 # -------------------- IMPORTAR EL PROYECTO EN CUALQUIER PC ------------------------ #
@@ -39,3 +46,7 @@ git clone https://github.com/leandro232323/repositorioPrueba.git
 
 # ----------------  ELIMINA TODO ACERCA DE GIT que este enlazado con el proyecto --------------------- #
 Get-ChildItem -Hidden -Filter ".git"
+
+
+
+
