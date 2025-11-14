@@ -1,0 +1,117 @@
+body {
+  padding: 20px;
+  margin: 0%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 52px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #f8fbff; /* Azul muy claro de fondo */
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 0.2px solid #1e3a8a; /* Azul oscuro */
+  background-color: white;
+}
+
+th,
+td {
+  border: 0.2px solid #3b82f6; /* Azul medio */
+  padding: 17px;
+  width: auto;
+}
+
+/* Encabezado principal de la tabla */
+thead th {
+  background-color: #1e3a8a; /* Azul oscuro */
+  color: white;
+  font-weight: bold;
+}
+
+/* Encabezados de columnas */
+tr th {
+  background-color: #3b82f6; /* Azul medio */
+  color: white;
+}
+
+/* Filas alternas para mejor legibilidad */
+tbody tr:nth-child(even) {
+  background-color: #eff6ff; /* Azul muy claro */
+}
+
+#formulario {
+  border: 1px solid #3b82f6; /* Azul medio */
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  min-width: 500px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(59, 130, 246, 0.1); /* Sombra azul sutil */
+}
+
+#formulario,
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  min-height: 40px;
+  border: 1px solid #93c5fd; /* Azul claro */
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #f8fbff; /* Fondo azul muy claro */
+}
+
+input:focus {
+  outline: none;
+  border-color: #3b82f6; /* Azul medio al enfocar */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+label {
+  color: #1e3a8a; /* Azul oscuro para las etiquetas */
+  font-weight: bold;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+}
+
+.botones{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #1e3a8a; /* Azul oscuro */
+    background-color: #3b82f6; /* Azul medio */
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.botones:hover{
+    cursor: pointer;
+    background-color: #1e3a8a; /* Azul oscuro al hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.3);
+}
+
+#tituloPrincipal{
+    border-bottom: 1px solid white;
+}
+
+.titulosSecundarios{
+    border: 1px solid white;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="formulario">
+        <form action="">
+            <label for="">Id</label>
+            <input type="text" id="Id_fila">
+            <label for="">Titulo</label>
+            <input type="text" id="titulo">
+            <label for="">Descripcion</label>
+            <input type="text" id="descripcion">
+            <label for="">Estado</label>
+            <input type="text" id="estado">
+            <label for="">Fecha de nacimiento</label>
+            <input type="date" id="fec-nacimiento">
+        </form>
+
+        <div class="contenedor-botones">
+            <button id="btnAgregar" class="botones">Agregar</button>
+            <button id="btnActualizar" class="botones">Actualizar</button>
+            <button id="btnBorrar" class="botones">Borrar</button>
+            <button id="btnMostrar" class="botones">Mostrar filas consola</button>
+
+        </div>
+    </div>
+
+
+    <table id="tabla">
+    <thead>
+        <tr>
+            <th colspan="5" id="tituloPrincipal">LISTA DE TAREAS</th>
+        </tr>
+        <tr>
+            <th class="titulosSecundarios">Id</th>
+            <th class="titulosSecundarios">Titulo</th>
+            <th class="titulosSecundarios">Descripcion</th>
+            <th class="titulosSecundarios">Estado</th>
+            <th class="titulosSecundarios">Fecha de vencimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Las filas se agregarán aquí dinámicamente -->
+    </tbody>
+</table>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
